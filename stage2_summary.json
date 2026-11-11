@@ -1,0 +1,23 @@
+{
+  "run_at_utc": "2026-11-11T12:36:41.740187+00:00",
+  "started_at_utc": "2026-11-11T12:36:38.895482+00:00",
+  "audit_type": "basic_rule_based_no_ai",
+  "products_audited": 317,
+  "variants_in_audited_products": 6872,
+  "content_findings": 557,
+  "variant_option_values_to_review": 1957,
+  "high_severity_findings": 18,
+  "outputs": [
+    "stage2_product_audit.csv",
+    "stage2_content_issues.csv",
+    "stage2_variant_checks.csv",
+    "stage2_summary.json"
+  ],
+  "limitations": [
+    "No AI, OpenAI API key, internet search or Shopify API calls are used.",
+    "Grammar checks are limited deterministic patterns and cannot replace a human proofread.",
+    "Section detection uses headings and selected metafield names; non-standard sections may be missed.",
+    "Variant option values not mentioned in description are informational review prompts, not confirmed errors.",
+    "The score is a transparent completeness indicator, not a measure of factual accuracy or regulatory compliance."
+  ]
+}
